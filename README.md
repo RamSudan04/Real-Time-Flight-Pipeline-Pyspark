@@ -1,3 +1,6 @@
+<img width="1920" height="990" alt="2 project dashboard" src="https://github.com/user-attachments/assets/769c8449-4a8e-4792-b190-002f7ed49d59" />
+<img width="1920" height="874" alt="2nd Project" src="https://github.com/user-attachments/assets/03a8109a-8cb4-4e10-b69b-ca293963fe46" />
+<img width="1911" height="989" alt="Pyspark 1" src="https://github.com/user-attachments/assets/14a709e6-f6bd-469e-ba70-2414c6106dec" />
 
 # Real-Time Flight Telemetry Data Pipeline
 
