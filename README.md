@@ -1,3 +1,4 @@
+<img width="1911" height="1034" alt="2 project pic" src="https://github.com/user-attachments/assets/987da32b-ba91-4e84-936a-129091966661" />
 # Real-Time Flight Telemetry Data Pipeline
 
 ## Overview
