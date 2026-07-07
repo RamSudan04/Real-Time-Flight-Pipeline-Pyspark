@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  pyspark_activemq:
+    image: rmohr/activemq:latest
+    ports:
+      - "8162:8161"   
+      - "61614:61613" 
+
+  pyspark_influxdb:
+    image: influxdb:2.0
+    ports:
+      - "8087:8086"   
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=admin
+      - DOCKER_INFLUXDB_INIT_PASSWORD=adminpassword
+      - DOCKER_INFLUXDB_INIT_ORG=internship
+      - DOCKER_INFLUXDB_INIT_BUCKET=pyspark_data
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=pyspark-secret-token
+
+  pyspark_grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3001:3000"   # Changed Grafana UI to 3001
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=adminpassword

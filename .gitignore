@@ -1,0 +1,21 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# PySpark / Local Data
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Environment variables (if you ever use them for passwords)
+.env
